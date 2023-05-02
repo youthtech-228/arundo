@@ -1,0 +1,15 @@
+{
+  "extends": "../../tsconfig.build.json",
+  "references": [
+    {
+      "path": "../../components"
+    }
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./src/*"],
+      "@arundo/marathon-shared/*": ["../../components/*"]
+    }
+  }
+}

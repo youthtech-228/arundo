@@ -1,0 +1,102 @@
+html,
+html * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// styles go here
+body {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 0.875rem;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  font-weight: 100;
+  line-height: 1.43;
+  letter-spacing: 0.01071em;
+  -webkit-text-size-adjust: 100%;
+}
+
+:root {
+  height: 100vh;
+
+  --text-color: #222;
+  --text-rgb: 34, 34, 34;
+  --background-color: #fff;
+  --background-rgb: 255, 255, 255;
+  --accent-color: #fb7e23;
+  --accent-hover: #af5818;
+  --accent-rgb: 251, 126, 35;
+  --lightgrey-color: #afafaf;
+  --grey-color: #707071;
+  --red: red;
+  --Harley-color: #D11D1D;
+  --sidebar-width: 20rem;
+  --drop-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+a {
+  color: var(--accent-color);
+  cursor: pointer;
+  text-decoration: none;
+
+  &:focus:after {
+    display: none;
+  }
+}
+
+hr {
+  border: none;
+  border-bottom: 1px solid #ddd;
+  margin: 1em 0;
+}
+
+p {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.167;
+  letter-spacing: 0;
+  margin-bottom: 0.35em;
+}
+
+h2 {
+  font-size: 2.4rem;
+  font-weight: 200;
+  line-height: 1.2;
+  letter-spacing: -0.00833em;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.6rem;
+  line-height: 1.235;
+  letter-spacing: 0.00735em;
+}
+
+h6 {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0.04em;
+}
+
+table {
+  font-weight: 400;
+  color: #444;
+}
+
+.MuiPopover-paper {
+  overflow: hidden !important;
+}
